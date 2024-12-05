@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto1{
+    display: flex;
+    justify-content: center;
+
+   
+    font-size: 22px;
+    color: rgb(143, 143, 143);
+    font-family: Poppins;
+    font-weight: 350;
+    cursor: default;
+    user-select: none;
+}
+
+.tempo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-weight: 500;
+    cursor: default;
+    user-select: none;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: -25px;
+    color: rgb(202, 202, 202);
+    font-family: Poppins;
+    font-weight: 450;
+    cursor: default;
+    user-select: none;
+}
